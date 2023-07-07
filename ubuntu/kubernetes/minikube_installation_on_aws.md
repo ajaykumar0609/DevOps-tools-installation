@@ -94,10 +94,11 @@ $ kubectl get nodes
 <br/>
 
 ## 🔹STEP-8
-#### Check Minikube all component status
+#### Check Minikube Port MAPPING
 ```
-$ kubectl get po -A
-```
+$ /usr/local/bin/kubectl proxy --address='0.0.0.0' --accept-hosts='^*$'
+
+$ minikube dashboard
 
 <br/>
 
