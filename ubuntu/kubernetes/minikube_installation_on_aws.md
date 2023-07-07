@@ -106,9 +106,7 @@ $ minikube dashboard
 #### Create Nginx pod to validate our 1 node minikube cluster
 ```
 $ vim pod.yml
-```
 
-```
 apiVersion: v1
 kind: Pod
 metadata:
